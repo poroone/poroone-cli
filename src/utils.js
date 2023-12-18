@@ -12,7 +12,7 @@ export const checkDir = (dir) => {
     return false
 }
 
-
+// 下载
 export const downloadTemp = (branch, name) => {
     // 下载动画
     spinner.start()
