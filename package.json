@@ -1,0 +1,22 @@
+{
+	"name": "vuecli",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"bin": {
+    "poOne-cli":"src/index.js"
+  },
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"commander": "^11.1.0",
+		"download-git-repo": "^3.0.2",
+		"inquirer": "^9.2.12",
+		"ora": "^7.0.1"
+	}
+}
